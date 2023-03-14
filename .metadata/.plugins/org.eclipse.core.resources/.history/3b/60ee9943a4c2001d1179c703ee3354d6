@@ -1,0 +1,29 @@
+package questao4;
+
+public class resposta {
+
+	public static void main(String[] args) {
+		
+		float sp = 67836.43f;
+		float rj = 36678.66f;
+		float mg = 29229.88f;
+		float es = 27165.48f;
+		float outros = 19849.53f;
+
+		float total = sp + rj + mg + es + outros;
+		
+		float percentualSP = sp / total * 100;
+		float percentualRJ = rj / total * 100;
+		float percentualMG = mg / total * 100;
+		float percentualES = es / total * 100;
+		float percentualOutros = outros / total * 100;
+		
+		System.out.print("Percentual de SP é: %.2f" + percentualSP + "%\n"+
+				"Percentual de RJ é: " + percentualRJ + "%\n"+
+				"Percentual de MG é: " + percentualMG + "%\n"+
+				"Percentual de ES é: " + percentualES + "%\n"+
+				"Percentual de Outros é: " + percentualOutros + "%\n");
+
+	}
+
+}
